@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="Start">Start</string>
+    <string name="HowToPlay">How To Play</string>
+    <string name="Setting">Setting</string>
+    <string name="input">Please Type in Your User Name</string>
+</resources>
