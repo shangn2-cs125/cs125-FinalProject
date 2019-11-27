@@ -3,8 +3,11 @@ package com.example.finalproject;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.TextView;
+
 
 public class RPC2 extends AppCompatActivity {
 
@@ -20,5 +23,9 @@ public class RPC2 extends AppCompatActivity {
         } else {
             userName.setText("Player");
         }
+        ImageView rockPaperScissors = findViewById(R.id.imageRock);
+        rockPaperScissors.setBackgroundResource(R.drawable.animation);
+        AnimationDrawable rockPaper = (AnimationDrawable) rockPaperScissors.getDrawable();
+        rockPaper.start();
     }
 }
